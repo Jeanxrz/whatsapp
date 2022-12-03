@@ -31,6 +31,7 @@
                         <td>
                             <a href="{{route('contacto.edit', $contacto->id)}}"><i class="fa-solid fa-pen-to-square"></i></a>
                             <button class="btn" type="submit"><i class="fas fa-trash-alt eliminar"></i></button>
+                            <a href=""></a>
                         </td>
                     </tr>
                 @endforeach
